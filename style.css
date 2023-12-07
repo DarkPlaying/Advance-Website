@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background-image: url('bg.jpg');
+  background-position-y:-150px ;
+    background-size:cover; /* Ensures the image covers the entire background */
+  text-align: center;
+  
+}
+.sign{
+  margin: 120px auto;
+  color: white;
+}
+.contain {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px white;
+  border-radius: 8px;
+  width: 400px;
+  padding: 50px;
+  text-align: center;
+}
+
+.login-container {
+
+  width: 500px;
+  padding: 0px;
+  margin: -20px auto;
+  
+  justify-content: center;
+  align-items: center;
+  transition:ease-in-out transform 0.3s ;
+}
+
+.login-container:hover {
+  transform: scale(1.05);
+}
+
+.header {
+  width: 70%;
+  margin: 100px auto;
+  margin-top: 50px;
+  color: white;
+  
+  text-align: center;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 70%;
+  margin: -100px auto;
+  padding: 20px;
+  border: 0.5px solid hsl(0, 0%, 100%);
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 10px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  color: black;
+  margin: 3px;
+}
+.input-group input {
+  height: 45px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px none white;
+}
+.btn {
+  background-color: pink;
+  margin-top:1px ;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 15px 70px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none; /* Remove underlines from links */
+  transition: .4s ease-in;
+}
+.btn:hover{
+  background-color: white;
+  box-shadow: inset -140px 0px 0px 0px white, inset 140px 0px 0px 0px white;
+  color: black;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: red; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+.btn1 {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 40px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none; /* Remove underlines from links */
+  transition: .6s ease-in;
+}
+.btn1:hover{
+  background-color: blue;
+  color: white;
+  box-shadow: inset -140px 0px 0px 0px blue, inset 140px 0px 0px 0px blue;
+
+}
+.btn2{
+  background-color: white;
+  margin-left: 20px;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none; /* Remove underlines from links */
+  transition: .6s ease-in;
+}
+.btn2:hover{
+  background-color: blue;
+  color: white;
+  box-shadow: inset -140px 0px 0px 0px blue, inset 140px 0px 0px 0px blue;
+}
+::placeholder{
+  color: white;
+}
+h2{
+  color: white;
+}
+::placeholder:hover{
+  background-color: #3c763d;
+}
+.p1{
+  color: white;
+}
+a{
+  color: white;
+}
+h1{
+  margin-top: 20px;
+  color: white;
+}
+h2{
+  margin-top: -20px;
+}
+.password-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+#password_2 {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#showHideBtn {
+  margin-left: -50px;
+  padding: 8px 16px;
+
+  background-color:transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#password_1 {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#showHideBtn1 {
+  margin-left: -50px;
+  padding: 8px 16px;
+
+  background-color:transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#showHideBtn:hover {
+  background-color:transparent;
+}
+.input-group1{
+  border-radius: 20px;
+}
+.input-group1 {
+  margin: 0px 0px 10px 0px;
+  border-radius: 13px;
+  color: black;
+}
+.input-group1 {
+  display: block;
+  text-align: left;
+  color: white;
+  margin: 3px;
+  border-radius: 30px;
+}
+.input-group1 input{
+  height: 40px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px soild white;
+  color: black;
+}
+#showHideBtn3 {
+  margin-left: -50px;
+  margin-top: -100px;
+  padding: 8px 16px;
+
+  background-color:transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#password{
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
